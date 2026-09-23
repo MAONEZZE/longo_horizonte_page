@@ -133,7 +133,7 @@ export function ApplicationForm() {
               ))}
             </ul>
             <a
-              href="https://www.asaas.com/c/5fr1cys74fce3hjx"
+              href="https://payment-link-v3.pagar.me/pl_m0ynMoaE7bDx86kidfJQAkPlXK2Z5VJ1"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 w-full py-4 rounded-xl bg-accent text-bg-dark font-semibold text-base hover:bg-accent/85 transition-colors duration-200 cursor-pointer group shadow-[0_0_30px_rgba(142,221,101,0.25)] hover:shadow-[0_0_50px_rgba(142,221,101,0.4)]"

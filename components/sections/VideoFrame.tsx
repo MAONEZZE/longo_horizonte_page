@@ -164,7 +164,7 @@ export function VideoFrame() {
                 Sobre a Imersão
               </p>
               <h2 className="font-heading text-2xl md:text-3xl lg:text-4xl font-bold text-offwhite leading-tight mb-4">
-                O que é a Imersão Longo Horizonte?
+                O que é a Imersão Alta Cadência?
               </h2>
               <p className="text-current/70 text-sm md:text-base leading-relaxed">
                 Uma tarde imersiva para executivos e empresários que querem transformar conhecimento em marca educacional, ou escalar o que já existe com lucro e método.
@@ -208,7 +208,7 @@ Um negócio educacional construído sobre bagagem real, que só acumulam valor c
                 className="absolute inset-0 w-full h-full"
                 allow="autoplay; fullscreen; encrypted-media"
                 allowFullScreen
-                title="Imersão Longo Horizonte — vídeo completo"
+                title="Imersão Alta Cadência — vídeo completo"
                 style={{ border: 0 }}
               />
             )}

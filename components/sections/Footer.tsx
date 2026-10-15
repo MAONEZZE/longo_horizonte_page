@@ -36,7 +36,7 @@ export function Footer() {
               <p className="font-heading font-bold text-offwhite text-2xl mb-1">
                 akeel<span className="text-accent">.</span>
               </p>
-              <p className="text-current/70 text-sm">Imersão Longo Horizonte</p>
+              <p className="text-current/70 text-sm">Imersão Alta Cadência</p>
               <p className="text-current/50 text-xs mt-1">{process.env.EVT_DATA} · São Paulo</p>
             </div>
 

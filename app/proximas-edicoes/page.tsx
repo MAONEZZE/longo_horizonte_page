@@ -4,8 +4,8 @@ import { EditionsCalendar } from "@/components/sections/EditionsCalendar";
 import { BackButton } from "@/components/ui/back-button";
 
 export const metadata: Metadata = {
-  title: "Próximas edições · Imersão Longo Horizonte",
-  description: "Calendário das próximas edições da Imersão Longo Horizonte.",
+  title: "Próximas edições · Imersão Alta Cadência",
+  description: "Calendário das próximas edições da Imersão Alta Cadência.",
 };
 
 export default function ProximasEdicoesPage() {

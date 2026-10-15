@@ -187,7 +187,7 @@ export function ApplicationForm() {
             <div className="relative z-10 flex flex-col items-center gap-6 px-6 py-12 text-center">
               <p className="font-ui text-accent text-xs font-bold uppercase tracking-[0.2em]">{process.env.EVT_DATA} · São Paulo, {process.env.EVT_BAIRRO}</p>
               <h4 className="font-heading text-3xl md:text-4xl font-bold text-offwhite leading-tight max-w-xl">
-                Imersão Longo Horizonte
+                Imersão Alta Cadência
               </h4>
               {/* Button opens coupon popup */}
               <button
@@ -208,7 +208,7 @@ export function ApplicationForm() {
           {/* Header */}
           <div className="pl-6 pr-12 pt-6 pb-5 border-b border-current/50">
             <p className="font-ui text-accent text-xs font-bold uppercase tracking-[0.2em] mb-1">Finalizar inscrição</p>
-            <h3 className="font-heading text-xl font-bold text-offwhite leading-snug">Imersão Longo Horizonte</h3>
+            <h3 className="font-heading text-xl font-bold text-offwhite leading-snug">Imersão Alta Cadência</h3>
             <p className="text-current/70 text-sm mt-1">{process.env.EVT_DATA} · São Paulo, {process.env.EVT_BAIRRO} · 13h–19h</p>
           </div>
 

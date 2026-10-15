@@ -28,7 +28,7 @@ const plex = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Imersão Longo Horizonte",
+  title: "Imersão Alta Cadência",
   description:
     `Uma imersão presencial para empresários que querem dominar as vendas de alto valor com processo, clareza e direção. ${process.env.EVT_DATA}, São Paulo.`,
 };

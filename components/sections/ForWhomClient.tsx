@@ -27,7 +27,7 @@ const targets = [
     checks: [
       "Estruturar oferta de alto valor com clareza",
       "Vender expertise sem depender de volume",
-      "Crescer com critério e longo horizonte",
+      "Crescer com critério e Alta Cadência",
     ],
   },
 ];
@@ -255,7 +255,7 @@ export function ForWhomClient({ clientFiles }: { clientFiles: string[] }) {
               Para quem é essa imersão
             </h2>
             <p className="text-current/70 text-lg max-w-xl mx-auto">
-              A Imersão Longo Horizonte foi desenhada para quem já chegou longe e quer ir mais longe ainda.
+              A Imersão Alta Cadência foi desenhada para quem já chegou longe e quer ir mais longe ainda.
             </p>
           </motion.div>
 

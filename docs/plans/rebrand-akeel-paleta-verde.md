@@ -8,7 +8,7 @@ Três mudanças foram pedidas juntas:
 
 1. **Paleta nova** — sistema verde de duas superfícies com ratios WCAG já auditados. Dois verdes existem de propósito e não colapsam num só: `accent` só vive sobre escuro (9.69:1), `accent-ink` só vive sobre claro (5.91:1). Cada um é proibido no fundo do outro.
 2. **`atlaz` → `akeel`** (minúsculo, estilizado tipo "adidas").
-3. **"Fator de Longo Horizonte" → "Imersão Longo Horizonte"** (11 ocorrências, incluindo `<title>` e metadata de SEO).
+3. **"Fator de Alta Cadência" → "Imersão Alta Cadência"** (11 ocorrências, incluindo `<title>` e metadata de SEO).
 
 Como a paleta nova define superfície clara *e* escura, a página deixa de ser dark-only: três seções de leitura longa invertem para fundo claro. Resultado esperado: nenhum hex da paleta velha sobrando no repo, contraste conforme a tabela em todo lugar, e tokens de marca reais no lugar dos 264 hexes.
 
@@ -175,16 +175,16 @@ As três seções claras têm arte escura por necessidade — o fundo e o cabeç
 - `Footer.tsx:88` `@by.atlaz` → **`@somos.akeel`**
 - `Footer.tsx:75` `linkedin.com/company/atlaz-society` → **intocado**
 
-**"Fator de Longo Horizonte" → "Imersão Longo Horizonte"** (Title Case, sem trema — vai para `<title>`, H1 e metadata):
+**"Fator de Alta Cadência" → "Imersão Alta Cadência"** (Title Case, sem trema — vai para `<title>`, H1 e metadata):
 
 - `app/layout.tsx:31` (`metadata.title`)
 - `app/proximas-edicoes/page.tsx:7`, `:8` (title + description)
 - `VideoFrame.tsx:167` ("O que é o…"), `:211` (`title` do iframe)
-- `ForWhomClient.tsx:264` ("A Fator de Longo Horizonte foi desenhada…" → **"A Imersão Longo Horizonte foi desenhada…"**)
+- `ForWhomClient.tsx:264` ("A Fator de Alta Cadência foi desenhada…" → **"A Imersão Alta Cadência foi desenhada…"**)
 - `ApplicationForm.tsx:184`, `:205`
 - `Footer.tsx:39`
 
-**Colisão a tratar:** `Hook.tsx:41` já diz `"Imersão Fator de Longo Horizonte"` — substituição ingênua produziria `"Imersão Imersão Longo Horizonte"`. Esse arquivo está na lista de deleção, então o problema desaparece; mas se `Hook.tsx` for preservado, tratar essa linha à mão.
+**Colisão a tratar:** `Hook.tsx:41` já diz `"Imersão Fator de Alta Cadência"` — substituição ingênua produziria `"Imersão Imersão Alta Cadência"`. Esse arquivo está na lista de deleção, então o problema desaparece; mas se `Hook.tsx` for preservado, tratar essa linha à mão.
 
 `shape-landing-hero.tsx:67` (`title1` default) também tem a string — arquivo deletado.
 

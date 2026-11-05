@@ -116,7 +116,7 @@ export function Hero() {
           ))}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/[0.05] border border-current/50 text-current/70 text-sm">
             <span className="w-2 h-2 rounded-full bg-accent animate-pulse flex-shrink-0" />
-            São Paulo, {process.env.EVT_BAIRRO} · 13h–19h
+            São Paulo, {process.env.EVT_BAIRRO} · 09h–19h
           </div>
         </motion.div>
 

@@ -75,7 +75,7 @@ export function ApplicationForm() {
         >
           {[
             { icon: Calendar, label: process.env.EVT_DATA },
-            { icon: Clock, label: "13h–19h · Coquetel até 21h" },
+            { icon: Clock, label: "09h–19h · Coquetel até 21h" },
             { icon: MapPin, label: process.env.EVT_LOCAL },
           ].map(({ icon: Icon, label }) => (
             <div
@@ -209,7 +209,7 @@ export function ApplicationForm() {
           <div className="pl-6 pr-12 pt-6 pb-5 border-b border-current/50">
             <p className="font-ui text-accent text-xs font-bold uppercase tracking-[0.2em] mb-1">Finalizar inscrição</p>
             <h3 className="font-heading text-xl font-bold text-offwhite leading-snug">Imersão Alta Cadência</h3>
-            <p className="text-current/70 text-sm mt-1">{process.env.EVT_DATA} · São Paulo, {process.env.EVT_BAIRRO} · 13h–19h</p>
+            <p className="text-current/70 text-sm mt-1">{process.env.EVT_DATA} · São Paulo, {process.env.EVT_BAIRRO} · 09h–19h</p>
           </div>
 
           {/* Price display */}
